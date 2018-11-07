@@ -24,9 +24,12 @@ def create_b_i_tree(a, n):
 	return b_tree
 
 
-a = [2,3,5,3,7,8,3,5,2,5,8,34,6,9]
+a = [2, 1, 1, 3, 3,4, 7, 4, 21, 05, 9]
 print("Original array is : ", a)
 b_i_t = create_b_i_tree(a, len(a))  # creating binary index tree
 n  = int(input("Enter strting index: "))
 r = int(input("Enter last index: "))
 print(sum(b_i_t, r) - sum(b_i_t, n - 1)) # To get the sum of range of elements of a list sum() function is called twice and the values of sum (1 to r) is substracted by sum(1 to n-1).
+update(b_i_t, len(b_i_t),3, 6) #adding 6 to 3rd index element
+print(sum(b_i_t, r) - sum(b_i_t, n - 1)) # To get the sum of range of elements of a list sum() function is called twice and the values of sum (1 to r) is substracted by sum(1 to n-1).
+print(b_i_t)
