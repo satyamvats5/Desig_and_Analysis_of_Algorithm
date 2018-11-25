@@ -1,3 +1,9 @@
+/*
+ * Using Divide and Conquer to search an element in an array
+ * Author: Satyam Kumar <satyamkumar4@acm.org>
+ * Repo: Design_And_Analysis_of_Algorithm [MIT LICENSE]
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 

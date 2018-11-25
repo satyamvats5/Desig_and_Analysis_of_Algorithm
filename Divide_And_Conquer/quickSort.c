@@ -1,3 +1,9 @@
+/*
+ * Using Quick sort to sort an array in ascending order.
+ * Author: Satyam Kumar <satyamkumar4@acm.org>
+ * Repo: Design_And_Analysis_of_Algorithm [MIT LICENSE]
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
